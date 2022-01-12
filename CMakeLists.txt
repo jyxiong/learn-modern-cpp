@@ -4,5 +4,6 @@ project(learn_cmake)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_subdirectory(3.runtime)
+add_subdirectory(2.usability)
+# add_subdirectory(3.runtime)
 # add_subdirectory(7.thread)
