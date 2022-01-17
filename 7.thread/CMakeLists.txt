@@ -1,8 +1,4 @@
-cmake_minimum_required(VERSION 3.16)
-
 project(7.thread)
-
-set(CMAKE_CXX_STANDARD 11)
 
 add_executable(7.1.thread_basic 7.1.thread_basic.cpp)
 
