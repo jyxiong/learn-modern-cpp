@@ -1,3 +1,5 @@
 project(5.pointers)
 
 add_executable(5.1.shared_ptr 5.1.shared_ptr.cpp)
+
+add_executable(5.2.unique_ptr 5.2.unique_ptr.cpp)
