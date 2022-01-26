@@ -55,13 +55,17 @@ public:
     // 对于有指针的class, 必须要实现拷贝构造函数
     String(const String& str);
 
+    // TODO: move constructor
+
     // destructor
     // 对于有指针的class, 必须要实现析构函数
     ~String();
 
-    // copt assignment
+    // copty assignment
     // 对于有指针的class, 必须要实现拷贝赋值函数
     String& operator=(const String& str);
+
+    // TODO: move assignment
 
 public:
     void print_self();
